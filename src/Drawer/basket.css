@@ -1,0 +1,180 @@
+.card__Bas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  margin-top: 20px;
+}
+
+.card__itemBas {
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  width: 633px;
+  height: 218px;
+  background: #ffffff;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+}
+
+.card__itemImgBas {
+  width: 33.33333%;
+}
+
+.card__imgBas {
+  padding-top: 18px;
+  padding-left: 18px;
+  width: 146.53px;
+  height: 136px;
+}
+
+.card__textBas {
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 21px;
+  padding-top: 76px;
+}
+
+.card__GlTextBas {
+  width: 33.33333%;
+  margin: 0 auto;
+}
+
+.bottom__amountBas {
+  display: flex;
+  align-items: center;
+  width: 30%;
+}
+
+.card__formDeleteBas {
+  width: 33.33333%;
+  padding-top: 18px;
+  display: flex;
+  padding-right: 18px;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+.card__btnDelete {
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+}
+
+.card__btnMinus {
+  padding-left: 17px;
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+}
+
+.card__btnPlus {
+  padding-left: 23px;
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+}
+
+.card__amount {
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 21px;
+  color: #000000;
+  padding-left: 23px;
+}
+
+.card__total {
+  width: 70%;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  color: #1c1c27;
+  padding-right: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.card__textFor {
+  display: flex;
+  justify-content: space-between;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 21px;
+  padding-top: 54px;
+  align-items: center;
+}
+
+.card__name {
+  color: #1c1c27;
+}
+
+.card__priceBas {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  padding-top: 12px;
+  color: #aaaaaa;
+}
+
+.card__btn {
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 21px;
+  color: #000000;
+  background-color: inherit;
+  border: none;
+  padding-left: 182px;
+  cursor: pointer;
+}
+
+.card__btn:hover {
+  color: #ffa542;
+  transition: color 0.2s linear;
+}
+
+.card__registration {
+  position: absolute;
+  width: 348.98px;
+  height: 114px;
+  left: 925px;
+
+  background: #ffffff;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+}
+
+.top__registration {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 310px;
+  padding-top: 22px;
+}
+
+.registration__total {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.form__buy {
+  padding-top: 16px;
+}
+
+.btn__buy {
+  width: 348.98px;
+  height: 65px;
+  background: #101010;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 21px;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+}
